@@ -5,5 +5,5 @@
 
   const router = useRouter();
 
-  router.push({ name: 'login' });
+  router.push({ name: 'test' });
 </script>

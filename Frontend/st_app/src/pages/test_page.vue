@@ -12,14 +12,13 @@
 <script setup>
   import { onBeforeMount, ref } from 'vue';
 
-
   // - 語音傳輸
   // > start
   // WebSocket連接
   const receivedMessage = ref(''); // 接收到的消息
   let ws;
   const init_ws_server = () => {
-    const socketUrl = `ws://localhost:8000/ws/${user_data.value.int_uid}`;
+    const socketUrl = 'ws://localhost:8000/ws/123';
     ws = new WebSocket(socketUrl);
 
     ws.onopen = () => {
@@ -161,11 +160,6 @@
 
   // > end
 
-
-
-  onBeforeMount(() => {
-    init_user_data();
-  });
   // > end
 </script>
 

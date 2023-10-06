@@ -112,11 +112,8 @@
 <script setup>
   import { ref, provide, inject } from 'vue';
   import { useRouter } from 'vue-router';
-  import { signOut } from 'firebase/auth';
-  import { auth } from '../firebase';
 
   const router = useRouter();
-  const userGoogle = inject('userGoogle');
   const confirm_leave = ref(true);
   provide('contentChanged', confirm_leave);
 
@@ -125,18 +122,5 @@
 
   const toggleLeftDrawer = () => {
     leftDrawerOpen.value = !leftDrawerOpen.value;
-  };
-
-  // - Google登出
-  const logout_google = () => {
-    signOut(auth)
-      .then(() => {
-        confirm_leave.value = false;
-        console.log(confirm_leave.value);
-        router.push({ name: 'login' });
-      })
-      .catch((err) => {
-        console.log(err);
-      });
   };
 </script>

@@ -9,7 +9,3 @@ docker compose up
 > cd @/Frontend/st_app/  
 yarn install  
 yarn dev  
-
-使用任一Google帳號登入
-聊天室001
-密碼123
