@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "editorconfig.editorconfig",
+    "formulahendry.auto-rename-tag",
+    "vscode-icons-team.vscode-icons",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "ecmel.vscode-html-css",
+    "lokalise.i18n-ally",
+    "oderwat.indent-rainbow",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "albert.tabout",
+    "redjue.git-commit-plugin",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "rvest.vs-code-prettier-eslint",
+    "aaron-bond.better-comments"
+  ]
+}

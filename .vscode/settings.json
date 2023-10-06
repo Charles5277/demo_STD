@@ -1,0 +1,79 @@
+{
+  "cSpell.words": [
+    "chatrooms",
+    "coreapi",
+    "fastapi",
+    "firestore",
+    "fontawesome",
+    "intlify",
+    "ionicons",
+    "middlewares",
+    "myapp",
+    "pinia",
+    "psql",
+    "pyaudio",
+    "pydantic",
+    "RTDB",
+    "ssml",
+    "stapp",
+    "texttospeech",
+    "themify",
+    "todos",
+    "toolset",
+    "uvicorn",
+    "uxmuk",
+    "Vetur",
+    "vuefire",
+    "vueuse",
+    "websockets",
+    "yasg"
+  ],
+  "editor.formatOnSave": true,
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#d9444a",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#f5c018",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": ">",
+      "color": "#fff",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "-",
+      "color": "#b3aff7",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": true
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "none"
+}
