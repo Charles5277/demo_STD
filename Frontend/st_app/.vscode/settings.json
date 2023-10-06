@@ -1,0 +1,121 @@
+{
+  "editor.inlayHints.enabled": "off",
+  "cSpell.words": [
+    "appl",
+    "arri",
+    "autofetch",
+    "bigbyte",
+    "codata",
+    "deptdata",
+    "empdata",
+    "empgrade",
+    "emptype",
+    "esbenp",
+    "filterleave",
+    "firestore",
+    "gitmoji",
+    "gradedata",
+    "groupable",
+    "iconsets",
+    "leav",
+    "leavefilter",
+    "loginbttm",
+    "maska",
+    "mgmt",
+    "Mobi",
+    "nadata",
+    "natdata",
+    "otfilter",
+    "oths",
+    "Parens",
+    "pinia",
+    "remun",
+    "showpwd",
+    "tmplt",
+    "toastui",
+    "typedata",
+    "vacfilter",
+    "Vetur",
+    "vuetify",
+    "worktrees"
+  ],
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "extensions.json",
+    "package.json",
+    "package-lock.json",
+    "yarn.lock"
+  ],
+  "i18n-ally.localesPaths": ["src/lang/locales"],
+  "GitCommitPlugin.ShowEmoji": true,
+  "GitCommitPlugin.MaxSubjectCharacters": 50,
+  "GitCommitPlugin.Templates": [
+    {
+      "templateName": "Angular",
+      "templateContent": "<icon><space><type>(<scope>):<space><subject><enter><body><enter><footer>",
+      "default": true
+    }
+  ],
+  "editor.fontLigatures": false,
+  // vscode默認啟用了根據文件類型自動設置tabsize的選項
+  "editor.detectIndentation": false,
+  // 每次保存的時候將代碼按eslint格式進行修復
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.useEditorConfig": false,
+  "git-graph.date.format": "ISO Date & Time",
+  "git-graph.date.type": "Commit Date",
+  "git.rebaseWhenSync": true,
+  "git.autofetch": true,
+  "git.fetchOnPull": true,
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#d9444a",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#f5c018",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": ">",
+      "color": "#fff",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "-",
+      "color": "#b3aff7",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "bold": true
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"]
+}
